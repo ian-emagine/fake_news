@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div id="main">
+    <div id="first">
+        <form method="POST" action="{{ url_for( 'add_item' ) }}">
+            <h1>Enter Article</h1>
+            <h2>FOR ENTERTAINMENT PURPOSED ONLY</h2>
+            <p>Enter a news article to see if it is real or fake</p>
+            <label for="title">Article Title</label>
+            <input type="text" name="title">
+            <label for="body">Article Body</label>
+            <textarea name="body"></textarea>
+            <input type="hidden" name="news_category_id" value="1">
+            <input type="submit" name="Submit">
+        </form>
+    </div>
+</div>
+{% endblock %}

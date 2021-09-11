@@ -1,3 +1,13 @@
+# Application test files
+application_old.py
+application_old2.py
+application_old3.py
+classification.model
+fake_news_model.pkl
+news.csv
+vectorizer.pickle
+templates/index2.html
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

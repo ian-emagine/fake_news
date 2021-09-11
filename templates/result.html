@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div><div id="main">
+    <div id="first"><h1>Results</h1>
+
+        <p>We believe this article <b>"{{ title }}"</b> is</p>
+        <h2>{{ result[0] }}</h2>
+        <p><a href="{{ url_for( 'add_form' ) }}"><button>START OVER</button></a></p>
+    </div>
+</div>
+{% endblock %}
